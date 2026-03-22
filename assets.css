@@ -2,6 +2,8 @@
   --white: #ffff;
   --black: #000000;
   --bntcolor: #00afdb;
+  --hColor: #373737;
+  --pColor: #4e4e4e;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -10,9 +12,29 @@ body {
 a {
   text-decoration: none;
 }
-.btn {
-  padding: 15px 47px;
+.h2,
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+  color: var(--hColor);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+p {
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: var(--pColor);
+}
+.btn {
+  width: 184px;
+  height: 46px;
+  padding: 15px 47px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 100%;
   text-transform: uppercase;
   background-color: var(--bntcolor);
   color: var(--white);
