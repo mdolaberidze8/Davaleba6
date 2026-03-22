@@ -12,8 +12,8 @@ a {
 }
 .btn {
   padding: 15px 47px;
-  width: 184px;
-  height: 46px;
+  font-size: 14px;
+  text-transform: uppercase;
   background-color: var(--bntcolor);
   color: var(--white);
   border: none;
