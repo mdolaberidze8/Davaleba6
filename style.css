@@ -1,0 +1,60 @@
+/*header-hero*/
+
+.hero_header {
+  margin-top: -3px;
+  min-height: 100vh;
+  max-width: 100%;
+  background-image: url(./images/bg-image.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.nav {
+  height: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.nav_left,
+.nav_right {
+  display: flex;
+  gap: 85px;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.nav_left a,
+.nav_right a {
+  color: var(--white);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  margin-top: 135px;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 4.5px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.hero p {
+  width: 450px;
+  color: var(--white);
+  font-size: 18px;
+  line-height: 140%;
+  margin: 17px 0px 33px 0px;
+}
+.icons {
+  margin: 183px 0px 90px 0px;
+  display: flex;
+  gap: 30px;
+}

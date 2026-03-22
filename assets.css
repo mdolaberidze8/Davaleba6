@@ -1,0 +1,20 @@
+:root {
+  --white: #ffff;
+  --black: #000000;
+  --bntcolor: #00afdb;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  padding: 15px 47px;
+  width: 184px;
+  height: 46px;
+  background-color: var(--bntcolor);
+  color: var(--white);
+  border: none;
+}
