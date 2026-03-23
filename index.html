@@ -28,23 +28,23 @@
   </head>
   <body>
     <!--header-->
-    <header class="hero_header">
-      <div class="container">
+    <header class="hero-header">
+      <div class="container hero">
         <nav class="nav">
-          <div class="nav_left">
+          <div class="nav__left">
             <a href="#">About</a>
             <a href="#">Syllabus</a>
           </div>
 
           <img src="./images/logo.png" alt="logo" />
 
-          <div class="nav_right">
+          <div class="nav__right">
             <a href="#">Projects</a>
             <a href="#">FAQ</a>
           </div>
         </nav>
 
-        <div class="hero">
+        <div class="hero__texts">
           <h1>your life is WebDev</h1>
 
           <p>
@@ -68,15 +68,16 @@
         </div>
       </div>
     </header>
+
     <!--Second Section-->
-    <section class="second_section">
-      <div class="secon_section-container">
-        <div class="left_section">
+    <section class="container second-section">
+      <div class="secon-section__content">
+        <div class="second-section__left">
           <h2>Rappresent your idea with a smart Design</h2>
           <p>
             Tasks accompanying and related to programming include: testing,
             debugging, source code maintenance,
-            <span class="left_section-p-bold">
+            <span class="second-section__left__p__bold">
               implementation of build systems,</span
             >
             and management of derived artifacts, such as the machine code of
@@ -85,7 +86,30 @@
           <button class="btn">Get started</button>
         </div>
         <div class="right_section">
-          <img src="./images/coworkers.png" alt="Co-werkers" />
+          <img class="side-img" src="./images/coworkers.png" alt="Co-werkers" />
+        </div>
+      </div>
+    </section>
+
+    <!--Third Section-->
+    <section class="container third-section">
+      <img
+        class="slider-nav__img"
+        src="./images/nav'item.png"
+        alt="slider nav"
+      />
+      <div class="third-section__content">
+        <div class="third-section__left">
+          <img src="./images/userpic.png" alt="user picture" />
+          <h3>our community</h3>
+          <p>
+            A hacker is any skilled computer expert that uses their technical
+            knowledge to overcome a problem, but it can also mean a security
+            hacker in common language
+          </p>
+        </div>
+        <div class="third-section__right">
+          <img src="./images/slider-items.png" alt="slider pics" />
         </div>
       </div>
     </section>

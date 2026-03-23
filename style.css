@@ -1,8 +1,8 @@
 /*header-hero*/
-
-.container {
+.hero-header {
   margin-top: -3px;
-  width: 1600px;
+}
+.hero {
   height: 744px;
   background-image: url(./images/bg-image.png);
   background-position: center;
@@ -16,8 +16,8 @@
   align-items: center;
   gap: 100px;
 }
-.nav_left,
-.nav_right {
+.nav__left,
+.nav__right {
   display: flex;
   gap: 85px;
   font-size: 14px;
@@ -26,18 +26,18 @@
   font-weight: 400;
 }
 
-.nav_left a,
-.nav_right a {
+.nav__left a,
+.nav__right a {
   color: var(--white);
 }
 
-.hero {
+.hero__texts {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.hero h1 {
+.hero__texts h1 {
   margin-top: 135px;
   font-size: 64px;
   font-weight: 700;
@@ -47,7 +47,7 @@
   color: var(--white);
 }
 
-.hero p {
+.hero__texts p {
   font-family: "Roboto", sans-serif;
   color: var(--white);
   font-size: 18px;
@@ -63,23 +63,23 @@
 
 /*Second Section*/
 
-.second_section {
-  width: 1600px;
+.second-section {
   height: 842px;
 }
 
-.secon_section-container {
+.secon-section__content {
   margin: 120px 269px 140px 269px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.left_section {
+.second-section__left {
   width: 407px;
   height: 233px;
   display: flex;
   flex-direction: column;
 }
-.left_section h2 {
+.second-section__left h2 {
   padding-right: 40px;
   line-height: 100%;
   font-size: 24px;
@@ -87,20 +87,62 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.left_section p {
+.second-section__left p {
   text-align: left;
   line-height: 140%;
   padding: 20px 0px 30px 0px;
 }
-.left_section-p-bold {
+.second-section__left__p__bold {
   font-weight: 500;
 }
-.btn2 {
-  width: 184px;
-  height: 46px;
+
+/*Third Section*/
+
+.third-section {
+  position: relative;
+  height: 504px;
+  background-color: var(--sectionbackground);
 }
 
-.right_section img {
-  width: 407px;
-  height: 582px;
+.third-section__content {
+  display: flex;
+  align-items: center;
+  padding: 120px 0px 140px 269px;
+  gap: 139px;
+}
+.third-section__left {
+  width: 298px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.third-section__left img {
+  height: 45px;
+  width: 45px;
+}
+
+.third-section__left h3 {
+  margin: 20px 0px 10px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.4px;
+}
+.third-section__left p {
+  text-align: center;
+  vertical-align: bottom;
+}
+.third-section__right {
+  display: flex;
+  justify-content: right;
+}
+.third-section__right img {
+  width: 894px;
+  height: 244px;
+}
+.slider-nav__img {
+  position: absolute;
+  right: 269px;
+  top: 82px;
 }

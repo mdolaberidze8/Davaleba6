@@ -4,11 +4,16 @@
   --bntcolor: #00afdb;
   --hColor: #373737;
   --pColor: #4e4e4e;
+  --sectionbackground: #f5f6f7;
 }
 body {
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
 }
+.container {
+  width: 1600px;
+}
+
 a {
   text-decoration: none;
 }
@@ -20,6 +25,7 @@ h4 {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 p {
   font-family: "Roboto", sans-serif;
@@ -39,4 +45,8 @@ p {
   background-color: var(--bntcolor);
   color: var(--white);
   border: none;
+}
+.side-img {
+  width: 407px;
+  height: 582px;
 }
