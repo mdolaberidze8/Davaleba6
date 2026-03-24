@@ -1,7 +1,7 @@
 :root {
   --white: #ffff;
   --black: #000000;
-  --bntcolor: #00afdb;
+  --btncolor: #00afdb;
   --hColor: #373737;
   --pColor: #4e4e4e;
   --sectionbackground: #f5f6f7;
@@ -32,7 +32,6 @@ p {
   font-size: 14px;
   font-weight: 400;
   color: var(--pColor);
-  line-height: 140%;
 }
 .p-bold {
   font-weight: 500;
@@ -44,7 +43,7 @@ p {
   font-size: 14px;
   line-height: 100%;
   text-transform: uppercase;
-  background-color: var(--bntcolor);
+  background-color: var(--btncolor);
   color: var(--white);
   border: none;
 }

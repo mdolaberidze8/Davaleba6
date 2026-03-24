@@ -166,3 +166,32 @@
   background-position: center;
   height: 524px;
 }
+.fifth-section__content {
+  padding: 200px 597px 220px 597px;
+}
+.fifth-section__content h2 {
+  text-align: center;
+  color: var(--white);
+}
+.email-form {
+  padding-top: 30px;
+  display: flex;
+  gap: 0;
+}
+.email {
+  background-color: var(--white);
+  border: none;
+  padding: 13px 277px 13px 24px;
+  width: 100%;
+  color: var(--hcolor);
+}
+.submit-btn {
+  padding: 16px 25px;
+  border: none;
+  background-color: var(--btncolor);
+}
+.submit-btn i {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: bold;
+}
