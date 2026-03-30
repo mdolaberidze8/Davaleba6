@@ -5,6 +5,7 @@
   --hColor: #373737;
   --pColor: #4e4e4e;
   --sectionbackground: #f5f6f7;
+  --iconcolor: #009cc2;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -16,6 +17,7 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--white);
 }
 h2,
 h3,
